@@ -1,0 +1,172 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrainsMono Nerd Font";
+    font-weight: bold;
+    font-size: 14px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(21, 18, 27, 0);
+    color: #cdd6f4;
+}
+
+tooltip {
+  background: #1e1e2e;
+  border-radius: 20px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #11111b;
+}
+
+
+#workspaces button {
+  padding: 5px;
+  color: #313244;
+  margin-right: 5px;
+  /* margin-left: 10px; */
+}
+
+#workspaces button.active {
+  color: #c6a0f6;
+}
+
+#workspaces button.focused {
+  color: #707880;
+  background: #eba0ac;
+  border-radius: 20px;
+}
+
+#workspaces button.urgent {
+  color: #11111b;
+  background: #f28fad;
+  border-radius: 20px;
+}
+
+#workspaces button:hover {
+  background: #11111b;
+  color: #cdd6f4;
+  border-radius: 20px;
+}
+
+#window, 
+#custom-date, 
+#clock, 
+#pulseaudio, 
+#network, 
+#bluetooth, 
+#workspaces, 
+#tray, 
+#custom-playerctl, 
+#workspaces
+#custom-ddcutil
+#custom-ddcutilAOC{
+	background: #1e1e2e;
+  opacity: 0.85;
+  padding: 0px 10px;
+  margin: 3px 0px;
+  margin-top: 10px;
+  border: 1px solid #181825;
+}
+
+#workspaces {
+  background: #1e1e2e;
+  border-radius: 20px;
+  margin-left: 10px;
+  padding-right: 0px;
+  padding-left: 5px;
+}
+
+#window {
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-right: 60px;
+}
+
+#custom-date {
+	color: #7dcfff;
+}
+
+#custom-power {
+	color: #24283b;
+	background-color: #db4b4b;
+	border-radius: 5px;
+	margin-right: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	padding: 5px 10px;
+}
+
+#tray {
+    border-radius: 20px;
+    margin-right: 10px;
+}
+#clock {
+    color: #ee99a0;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px 20px 20px 0px;
+    margin-right: 10px;
+}
+
+#bluetooth{
+  color: #89dceb;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+#battery {
+    color: #9ece6a;
+}
+
+#battery.charging {
+    color: #9ece6a;
+}
+
+#battery.warning:not(.charging) {
+    background-color: #f7768e;
+    color: #24283b;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#backlight {
+    background-color: #24283b;
+    color: #db4b4b;
+    border-radius: 0px 0px 0px 0px;
+    margin: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px 0px;
+}
+
+#network {
+    color: #f7768e;
+    border-radius: 5px 0px 0px 5px;
+    margin-right: 0px;
+}
+
+#pulseaudio {
+    color: #cba6f7;
+    border-radius: 20px 0px 0px 20px
+}
+
+#pulseaudio.muted {
+    background-color: #f38ba8;
+    color: #24283b;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#custom-playerctl {
+	border-radius: 20px;
+  margin-right: 10px;
+  border-right: 0px;
+}
+
+#custom-ddcutil {
+	color: #89dceb;
+  border-radius: 5px 0px 0px 5px;
+  border-right: 0px;
+}
+
